@@ -1,0 +1,64 @@
+"'Splash Screen' As screen":
+    Fill: =RGBA(30, 45, 62, 1)
+    LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+
+    Label7 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(237, 237, 237, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.Georgia
+        FontWeight: =FontWeight.Bold
+        Height: =209
+        Size: =60
+        Text: ="Event Visitor Log App"
+        Width: =567
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Label9 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =120
+        Size: =18
+        Text: ="Powerd By Astral Computers"
+        Width: =229
+        X: =40
+        Y: =265
+        ZIndex: =2
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        BorderColor: =RGBA(0, 188, 242, 1)
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(30, 45, 62, 1)
+        DisabledBorderColor: =RGBA(244, 244, 244, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Duration: =600
+        Fill: =RGBA(0, 188, 242, 1)
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 10%)
+        HoverColor: =RGBA(30, 45, 62, 1)
+        HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
+        OnTimerEnd: =Navigate(Dashboard)
+        PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedColor: =RGBA(30, 45, 62, 1)
+        PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        Visible: =false
+        X: =40
+        Y: =385
+        ZIndex: =3
+

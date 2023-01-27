@@ -113,9 +113,11 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Splash Screen",
+    "Dashboard",
     "New Visitor Registration",
     "Regular Visitor Registration",
     "Event Participants Log",
-    "Event Participants Log_1"
+    "Event Log"
   ]
 }

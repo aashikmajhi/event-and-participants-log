@@ -794,19 +794,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.TextInput2_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Event Log'.TextInput2_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.TextInput2_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Event Log'.TextInput2_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.TextInput2_2"
+                "module": "Event Log",
+                "type": "'Event Log'.TextInput2_2"
               }
             }
           ],
@@ -824,19 +824,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_9.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.lblEventTitle.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_9.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.lblEventTitle.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_9"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventTitle"
               }
             }
           ],
@@ -854,19 +854,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_9.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.lblEventTitle.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_9.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.lblEventTitle.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_9"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventTitle"
               }
             }
           ],
@@ -884,19 +884,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_13.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.lblEventDate.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_13.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.lblEventDate.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_13"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventDate"
               }
             }
           ],
@@ -914,19 +914,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_13.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.lblEventDate.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_13.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.lblEventDate.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_13"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventDate"
               }
             }
           ],
@@ -944,19 +944,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_14.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.lblEventName.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_14.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.lblEventName.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_14"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventName"
               }
             }
           ],
@@ -974,19 +974,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_14.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.lblEventName.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_14.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.lblEventName.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_14"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventName"
               }
             }
           ],
@@ -1004,19 +1004,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_15.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.lblNoOfParticipants.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_15.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.lblNoOfParticipants.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_15"
+                "module": "Event Log",
+                "type": "'Event Log'.lblNoOfParticipants"
               }
             }
           ],
@@ -1034,19 +1034,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_15.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.lblNoOfParticipants.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_15.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.lblNoOfParticipants.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_15"
+                "module": "Event Log",
+                "type": "'Event Log'.lblNoOfParticipants"
               }
             }
           ],
@@ -1064,19 +1064,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_16.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.Title1_16.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_16.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.Title1_16.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_16"
+                "module": "Event Log",
+                "type": "'Event Log'.Title1_16"
               }
             }
           ],
@@ -1094,19 +1094,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_16.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.Title1_16.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_16.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.Title1_16.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_16"
+                "module": "Event Log",
+                "type": "'Event Log'.Title1_16"
               }
             }
           ],
@@ -1124,19 +1124,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_17.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Event Log'.lblEventStatus.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_17.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Event Log'.lblEventStatus.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_17"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventStatus"
               }
             }
           ],
@@ -1154,19 +1154,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_17.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.lblEventStatus.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Title1_17.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.lblEventStatus.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Title1_17"
+                "module": "Event Log",
+                "type": "'Event Log'.lblEventStatus"
               }
             }
           ],
@@ -1184,19 +1184,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Gallery1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Event Log'.Gallery1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Gallery1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Event Log'.Gallery1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Gallery1_1"
+                "module": "Event Log",
+                "type": "'Event Log'.Gallery1_1"
               }
             }
           ],
@@ -1214,19 +1214,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Gallery1_1.TabIndex"
+                  "fullyQualifiedName": "'Event Log'.Gallery1_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Event Participants Log_1'.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "'Event Log'.Gallery1_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Event Participants Log_1",
-                "type": "'Event Participants Log_1'.Gallery1_1"
+                "module": "Event Log",
+                "type": "'Event Log'.Gallery1_1"
               }
             }
           ],

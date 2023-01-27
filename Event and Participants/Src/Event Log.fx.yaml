@@ -1,4 +1,4 @@
-"'Event Participants Log_1' As screen":
+"'Event Log' As screen":
     Fill: =RGBA(30, 45, 62, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
@@ -212,7 +212,7 @@
             Y: =10
             ZIndex: =9
 
-    Title1_9 As label:
+    lblEventTitle As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -231,7 +231,7 @@
         Y: =225
         ZIndex: =8
 
-    Title1_13 As label:
+    lblEventDate As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -250,7 +250,7 @@
         Y: =225
         ZIndex: =9
 
-    Title1_14 As label:
+    lblEventName As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -269,7 +269,7 @@
         Y: =225
         ZIndex: =10
 
-    Title1_15 As label:
+    lblNoOfParticipants As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -307,7 +307,7 @@
         Y: =225
         ZIndex: =12
 
-    Title1_17 As label:
+    lblEventStatus As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)

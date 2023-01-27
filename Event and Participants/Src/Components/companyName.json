@@ -124,7 +124,7 @@
         "Name": "companyName_1",
         "Parent": "companyName",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 81,
+        "PublishOrderIndex": 89,
         "Rules": [
           {
             "Category": "Data",
@@ -308,7 +308,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "RGBA(39, 113, 194, 1)",
+            "InvariantScript": "RGBA(74, 172, 224, 1)",
             "Property": "Color",
             "RuleProviderType": "Unknown"
           },
@@ -400,7 +400,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638103901284862200",
+    "LastModifiedTimestamp": "638104082867936567",
     "Name": "companyName",
     "Rules": [
       {
@@ -459,7 +459,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638103901284862200",
+  "LastModifiedTimestamp": "638104082867936567",
   "Name": "a80dad9cfeee447aa6397e83c013454e",
   "OverridableProperties": {},
   "TemplateOriginalName": "8a76fa89713c41bc80b2a4553b040a61",
