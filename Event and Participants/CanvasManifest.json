@@ -114,6 +114,8 @@
   },
   "ScreenOrder": [
     "New Visitor Registration",
-    "Regular Visitor Registration"
+    "Regular Visitor Registration",
+    "Event Participants Log",
+    "Event Participants Log_1"
   ]
 }

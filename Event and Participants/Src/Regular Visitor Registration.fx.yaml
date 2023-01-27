@@ -207,11 +207,17 @@
 
             DataCardKey11 As label:
                 AutoHeight: =true
-                Color: =RGBA(0, 18, 107, 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
                 Font: =Font.'Lato Black'
                 FontWeight: =FontWeight.Semibold
                 Height: =34
+                PaddingLeft: =0
                 Size: =13
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -221,9 +227,13 @@
                 ZIndex: =2
 
             Label1_6 As label:
-                BorderColor: =RGBA(0, 18, 107, 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
                 Color: =RGBA(202, 202, 202, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(237, 237, 237, 1)
+                FocusedBorderThickness: =4
                 Font: =Font.Lato
                 Height: =43
                 Size: =13
@@ -234,9 +244,13 @@
                 ZIndex: =3
 
             Label2_2 As label:
-                BorderColor: =RGBA(0, 18, 107, 1)
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
                 Color: =RGBA(202, 202, 202, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(237, 237, 237, 1)
+                FocusedBorderThickness: =4
                 Font: =Font.Lato
                 Height: =103
                 Size: =13
@@ -250,18 +264,27 @@
                 ZIndex: =4
 
             symptoms As radio:
-                BorderColor: =RGBA(0, 18, 107, 1)
+                BorderColor: =RGBA(255, 255, 255, 1)
                 BorderStyle: =BorderStyle.None
+                BorderThickness: =2
                 Color: =RGBA(202, 202, 202, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(237, 237, 237, 1)
+                FocusedBorderThickness: =4
                 Font: =Font.Lato
                 FontWeight: =FontWeight.Semibold
-                HoverColor: =RGBA(0, 18, 107, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
                 Items: =["Yes","No"]
                 OnChange: =Set(_lastSelectedSymptoms,symptoms.SelectedText.Value)
                 OnSelect: =Set(_lastSelectedSymptoms,symptoms.SelectedText.Value)
-                RadioBorderColor: =RGBA(0, 18, 107, 1)
+                PaddingBottom: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                RadioBackgroundFill: =RGBA(30, 45, 62, 1)
+                RadioBorderColor: =RGBA(255, 255, 255, 1)
+                RadioSelectionFill: =RGBA(0, 188, 242, 1)
                 Reset: =true
                 Size: =13
                 Tooltip: =If(!IsBlank(symptoms.Selected), false, "Are you having the listed symptoms?")
