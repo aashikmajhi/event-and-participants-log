@@ -1007,10 +1007,23 @@
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
-        OnSelect: |
-            =If(IsBlank(DataCardValue9.Selected.Value && DataCardValue10 && Image1.Image && DataCardValue22.Selected.Value && DataCardValue6 && DataCardValue7 && DataCardValue8 && DataCardValue21.Selected.Title),Notify("Error with Input"),NotificationType.Error);
+        OnSelect: |+
+            =//If(IsBlank(DataCardValue9.Selected.Value && DataCardValue10 && Image1.Image && DataCardValue22.Selected.Value && DataCardValue6 && DataCardValue7 && DataCardValue8 && DataCardValue21.Selected.Title),Notify("Error with Input"),NotificationType.Error);
             
-            Patch('Participant Information','New Visitor Registration Form'.Updates,'New Visitor Registration Form Photo'.Updates);
+            If(IsBlank(DataCardValue9.Selected.Value),Notify("Salutation must be selected. Please select salutation."),NotificationType.Error);
+            If(IsBlank(DataCardValue10),Notify("Full Name field can not be emplty. Please enter your name."),NotificationType.Error);
+            If(IsBlank(DataCardValue7),Notify("Contact Number can not be empty. Please enter contact number."),NotificationType.Error);
+            If(IsBlank(DataCardValue6),Notify("Address can not be empty. Please enter your address."),NotificationType.Error);
+            If(IsBlank(DataCardValue8),Notify("Email can not be empty. Please enter your valid email."),NotificationType.Error);
+            If(IsBlank(DataCardValue21),Notify("Please select the event."),NotificationType.Error);
+            If(IsBlank(Image1.Image),Notify("Please take your photot."),NotificationType.Error);
+            If(IsBlank(DataCardValue22.Selected.Value),Notify("Please select the if you have the symptoms."),NotificationType.Error);
+            
+            If(IsEmpty(Errors('Participant Information')),
+                Patch('Participant Information','New Visitor Registration Form'.Updates,'New Visitor Registration Form Photo'.Updates),
+                Notify("Invalid data entry")
+            )
+            
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
