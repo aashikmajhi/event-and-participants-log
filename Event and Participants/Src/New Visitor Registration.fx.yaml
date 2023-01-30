@@ -1008,7 +1008,9 @@
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
         OnSelect: |
-            =Patch('Participant Information','New Visitor Registration Form'.Updates,'New Visitor Registration Form Photo'.Updates);
+            =If(IsBlank(DataCardValue9.Selected.Value && DataCardValue10 && Image1.Image && DataCardValue22.Selected.Value && DataCardValue6 && DataCardValue7 && DataCardValue8 && DataCardValue21.Selected.Title),Notify("Error with Input"),NotificationType.Error);
+            
+            Patch('Participant Information','New Visitor Registration Form'.Updates,'New Visitor Registration Form Photo'.Updates);
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
