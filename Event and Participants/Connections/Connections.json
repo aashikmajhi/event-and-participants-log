@@ -11,6 +11,9 @@
     "datasets": {
       "https://astralnepal.sharepoint.com/sites/astralportal": {
         "dataSources": {
+          "Events": {
+            "tableName": "bb6a0612-0b6b-4758-8e6b-a7c672f071f6"
+          },
           "Participant Information": {
             "tableName": "b994d83f-b6d2-44ee-bcf9-e3f179302016"
           }
@@ -18,7 +21,8 @@
       }
     },
     "dataSources": [
-      "Participant Information"
+      "Participant Information",
+      "Events"
     ],
     "dependencies": {},
     "dependents": [],

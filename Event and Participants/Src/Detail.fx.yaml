@@ -1,0 +1,10 @@
+Detail As screen:
+    Fill: =RGBA(30, 45, 62, 1)
+    LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+    OnVisible: =ClearCollect(Event_Title,Events)
+
+    companyName_8 As companyName:
+        X: =225
+        Y: =8
+        ZIndex: =6
+

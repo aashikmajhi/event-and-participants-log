@@ -117,7 +117,9 @@
     "Dashboard",
     "New Visitor Registration",
     "Regular Visitor Registration",
+    "Visitor View",
     "Event Participants Log",
-    "Event Log"
+    "Event Log",
+    "Detail"
   ]
 }

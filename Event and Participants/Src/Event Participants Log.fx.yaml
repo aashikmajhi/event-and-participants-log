@@ -1,35 +1,7 @@
 "'Event Participants Log' As screen":
     Fill: =RGBA(30, 45, 62, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
-
-    TextInput2_1 As text:
-        BorderColor: =RGBA(85, 106, 129, 1)
-        BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(30, 45, 62, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Height: =36
-        HintText: ="Search Visitor by Contact Number"
-        HoverBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(30, 45, 62, 1)
-        PressedBorderColor: =RGBA(0, 188, 242, 1)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(30, 45, 62, 1)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =13
-        Width: =378
-        X: =179
-        Y: =163
-        ZIndex: =4
+    OnVisible: =ClearCollect(Participants,'Participant Information')
 
     Label5_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -54,6 +26,7 @@
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(85, 106, 129, 1)
         Height: =455
+        Items: ='Participant Information'
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =48
@@ -74,7 +47,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Name"
+            Text: =ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =206
             X: =
@@ -93,10 +66,10 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Email"
+            Text: =ThisItem.'Event Title'.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =206
-            X: =206
+            X: =216
             Y: =10
             ZIndex: =3
 
@@ -108,7 +81,7 @@
             DisabledColor: =RGBA(220, 220, 220, 1)
             DisabledFill: =RGBA(0, 0, 0, 0)
             FocusedBorderThickness: =4
-            Height: =60
+            Height: =42
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
             HoverFill: =RGBA(0, 0, 0, 0)
@@ -123,9 +96,8 @@
             PressedFill: =RGBA(0, 0, 0, 0)
             TabIndex: =0
             Tooltip: ="View item details"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            Width: =48
+            X: =1250
             ZIndex: =4
 
         Separator1 As rectangle:
@@ -149,10 +121,10 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Name"
+            Text: =ThisItem.Address
             VerticalAlign: =VerticalAlign.Top
             Width: =206
-            X: =608
+            X: =618
             Y: =10
             ZIndex: =6
 
@@ -168,10 +140,10 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Email"
+            Text: =ThisItem.Email
             VerticalAlign: =VerticalAlign.Top
             Width: =206
-            X: =407
+            X: =417
             Y: =10
             ZIndex: =7
 
@@ -187,10 +159,10 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Name"
+            Text: =ThisItem.Symptoms
             VerticalAlign: =VerticalAlign.Top
             Width: =206
-            X: =818
+            X: =828
             Y: =10
             ZIndex: =8
 
@@ -206,7 +178,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =16
-            Text: ="Visitor Email"
+            Text: =ThisItem.Photo.Small
             VerticalAlign: =VerticalAlign.Top
             Width: =206
             X: =1029
@@ -244,7 +216,7 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =17
-        Text: ="Visitor Name"
+        Text: ="Event Title"
         VerticalAlign: =VerticalAlign.Top
         Width: =206
         X: =246
@@ -263,7 +235,7 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =17
-        Text: ="Visitor Name"
+        Text: ="Email"
         VerticalAlign: =VerticalAlign.Top
         Width: =206
         X: =452
@@ -282,7 +254,7 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =17
-        Text: ="Visitor Name"
+        Text: ="Address"
         VerticalAlign: =VerticalAlign.Top
         Width: =206
         X: =658
@@ -301,7 +273,7 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =17
-        Text: ="Visitor Name"
+        Text: ="Symptoms"
         VerticalAlign: =VerticalAlign.Top
         Width: =206
         X: =864
@@ -320,10 +292,43 @@
         PaddingRight: =0
         PaddingTop: =0
         Size: =17
-        Text: ="Visitor Name"
+        Text: ="Photo"
         VerticalAlign: =VerticalAlign.Top
         Width: =206
         X: =1070
         Y: =225
         ZIndex: =13
+
+    ComboBox1 As combobox:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        ChevronBackground: =RGBA(30, 45, 62, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(218, 218, 218, 1)
+        ChevronHoverBackground: =RGBA(67, 85, 106, 1)
+        ChevronHoverFill: =RGBA(218, 218, 218, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Address"]
+        Fill: =RGBA(30, 45, 62, 1)
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(67, 85, 106, 1)
+        IsSearchable: =false
+        Items: =Filter(Participants,Title)
+        PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedColor: =RGBA(30, 45, 62, 1)
+        PressedFill: =RGBA(0, 188, 242, 1)
+        SearchFields: =["Address"]
+        SearchItems: =[]
+        SelectionColor: =RGBA(30, 45, 62, 1)
+        SelectionFill: =RGBA(0, 188, 242, 1)
+        Size: =13
+        Width: =378
+        X: =189
+        Y: =161
+        ZIndex: =14
 

@@ -22,6 +22,7 @@ Dashboard As screen:
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
         OnSelect: |-
             =Set(_lastEnteredPhoneNumber,"");
+            ResetForm('New Visitor Registration Form') && ResetForm('New Visitor Registration Form Photo');
             Navigate('New Visitor Registration')
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
@@ -34,7 +35,7 @@ Dashboard As screen:
         Text: ="New Visitor"
         Width: =340
         X: =66
-        Y: =198
+        Y: =248
         ZIndex: =2
 
     btnRegularVisitor As button:
@@ -63,9 +64,10 @@ Dashboard As screen:
         RadiusTopRight: =15
         Size: =30
         Text: ="Regular Visitor"
+        Visible: =false
         Width: =340
         X: =66
-        Y: =365
+        Y: =598
         ZIndex: =3
 
     btnAdmin As button:
@@ -94,7 +96,7 @@ Dashboard As screen:
         Text: ="Admin"
         Width: =340
         X: =66
-        Y: =538
+        Y: =440
         ZIndex: =4
 
     Label11 As label:
@@ -113,6 +115,6 @@ Dashboard As screen:
         Text: ="Warm Welcome from Astral Family"
         Width: =812
         X: =465
-        Y: =198
+        Y: =168
         ZIndex: =5
 
