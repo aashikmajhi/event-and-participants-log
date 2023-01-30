@@ -224,7 +224,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/30/2023 10:28:08",
+  "HeaderLastSavedDateTimeUTC": "01/30/2023 11:06:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "64df3d5d-759f-4970-980e-1a0966f888ce": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/072a7fa6c6714e29b6bec794f28596cd\""
@@ -249,14 +249,15 @@
   "OrderDataSource": {
     "ComboBoxSample": 1,
     "CustomGallerySample": 2,
-    "EstimatedParticipants": 9,
-    "Event_Title": 7,
+    "EstimatedParticipants": 10,
+    "Event_Title": 8,
     "Events": 4,
-    "EventTitle": 6,
+    "EventTitle": 7,
     "Participant Information": 3,
-    "ParticipantContactNumber": 5,
-    "Participants": 8,
-    "RadioSample": 0
+    "ParticipantContactNumber": 6,
+    "Participants": 9,
+    "RadioSample": 0,
+    "Security Control": 5
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},

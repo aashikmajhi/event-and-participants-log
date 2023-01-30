@@ -18,11 +18,19 @@
             "tableName": "b994d83f-b6d2-44ee-bcf9-e3f179302016"
           }
         }
+      },
+      "https://astralnepal.sharepoint.com/sites/NatRuleNITC": {
+        "dataSources": {
+          "Security Control": {
+            "tableName": "368e49d4-d7d2-4605-be24-158eb112ea23"
+          }
+        }
       }
     },
     "dataSources": [
       "Participant Information",
-      "Events"
+      "Events",
+      "Security Control"
     ],
     "dependencies": {},
     "dependents": [],

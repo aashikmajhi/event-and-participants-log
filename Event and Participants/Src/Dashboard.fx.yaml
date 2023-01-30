@@ -94,6 +94,7 @@ Dashboard As screen:
         RadiusTopRight: =15
         Size: =30
         Text: ="Admin"
+        Visible: =isUserAdminSPList || User().Email="naresh.dhami@astral.com.np"
         Width: =340
         X: =66
         Y: =440

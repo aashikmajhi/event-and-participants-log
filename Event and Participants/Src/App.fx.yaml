@@ -1,4 +1,19 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: |
+        =Set(
+            varUser,
+            User()
+        );
+        //Set(_sendEmailsEnabled,false);
+        Set(
+            isUserAdminSPList,
+            !IsBlank(
+                LookUp(
+                    'Security Control',
+                    Admin.Email = varUser.Email
+                )
+            )
+        ) || Set( isUserAdminSPList, Email="sumit.manandhar@astral.com.np")
     StartScreen: ='Splash Screen'
 
