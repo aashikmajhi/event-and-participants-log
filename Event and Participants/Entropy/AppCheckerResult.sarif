@@ -14,179 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard1.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard1.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "varMatch"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard1.TextInput1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard2.TextInput1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard2.TextInput1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard2.TextInput1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard3.TextInput1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard3.TextInput1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard3.TextInput1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard4.TextInput1_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard4.TextInput1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard4.TextInput1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard5.Radio1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard5.Radio1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form'.DataCard5.Radio1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
                 "module": "Regular Visitor Registration",
-                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+                "type": "'Regular Visitor Registration'.TextInput2"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "varMatch"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -194,29 +54,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form Photo'.DataCard6.Camera1.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form Photo'.DataCard6.Camera1.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": "IsBlank(varMatch)"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "New Visitor Registration",
-                "type": "'New Visitor Registration'.'New Visitor Registration Form Photo'.DataCard6.Camera1"
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.TextInput2"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "IsBlank"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 23,
+                  "snippet": {
+                    "text": "varMatch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.TextInput2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "varMatch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -224,17 +134,104 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 57,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(varMatch), varMatch, _lastEnteredPhoneNumber)"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.TextInput2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 37,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
                 "module": "Regular Visitor Registration",
                 "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
               }
@@ -244,9 +241,89 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 34,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "IsBlank(visitorSearchByPhone.Text)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 51,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -254,19 +331,26 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": ".Text"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
                 "module": "Regular Visitor Registration",
-                "type": "'Regular Visitor Registration'.TextInput2"
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
               }
             }
           ],
@@ -274,9 +358,49 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 204,
+                  "snippet": {
+                    "text": "VisitorInformation"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "VisitorInformation"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -284,29 +408,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 202,
+                  "charOffset": 177,
+                  "snippet": {
+                    "text": "Filter(\r\n                  VisitorInformation,\r\n                  StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )\r\n               )"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
                 "module": "Regular Visitor Registration",
-                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1"
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Filter"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 277,
+                  "snippet": {
+                    "text": "'Phone Number'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Phone Number"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -314,19 +488,66 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms.AccessibleLabel"
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms.AccessibleLabel",
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 315,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
                 "module": "Regular Visitor Registration",
-                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms"
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 335,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
               }
             }
           ],
@@ -334,10 +555,721 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 118,
+                  "charOffset": 243,
+                  "snippet": {
+                    "text": "StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "StartsWith"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 397,
+                  "snippet": {
+                    "text": "'Full Name'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Full Name"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 272,
+                  "charOffset": 151,
+                  "snippet": {
+                    "text": "Distinct(\r\n               Filter(\r\n                  VisitorInformation,\r\n                  StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )\r\n               ),\r\n               'Full Name'\r\n            )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Distinct"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 438,
+                  "snippet": {
+                    "text": "Result"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text, Number, Date, Time, DateTimeNoTimeZone, DateTime, Boolean, OptionSetValue, ViewValue"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedTypesCSV",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 37,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 34,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "IsBlank(visitorSearchByPhone.Text)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IsBlank"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 51,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 204,
+                  "snippet": {
+                    "text": "VisitorInformation"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "VisitorInformation"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 202,
+                  "charOffset": 177,
+                  "snippet": {
+                    "text": "Filter(\r\n                  VisitorInformation,\r\n                  StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )\r\n               )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 277,
+                  "snippet": {
+                    "text": "'Phone Number'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Phone Number"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 20,
+                  "charOffset": 315,
+                  "snippet": {
+                    "text": "visitorSearchByPhone"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "visitorSearchByPhone"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 335,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 118,
+                  "charOffset": 243,
+                  "snippet": {
+                    "text": "StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "StartsWith"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 397,
+                  "snippet": {
+                    "text": "'Full Name'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Full Name"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 272,
+                  "charOffset": 151,
+                  "snippet": {
+                    "text": "Distinct(\r\n               Filter(\r\n                  VisitorInformation,\r\n                  StartsWith(\r\n                     'Phone Number',\r\n                     visitorSearchByPhone.Text\r\n                  )\r\n               ),\r\n               'Full Name'\r\n            )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Distinct"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 438,
+                  "snippet": {
+                    "text": "Result"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text, Number, Date, Time, DateTimeNoTimeZone, DateTime, Boolean, OptionSetValue, ViewValue"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedTypesCSV",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -367,67 +1299,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Event Participants Log",
-                "type": "'Event Participants Log'.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Event Participants Log",
-                "type": "'Event Participants Log'.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -457,7 +1329,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -487,7 +1359,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -517,7 +1389,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -547,7 +1419,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -577,7 +1449,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -607,7 +1479,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -637,7 +1509,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -667,7 +1539,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -697,7 +1569,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -727,7 +1599,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -757,7 +1629,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -787,7 +1659,67 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Event Participants Log",
+                "type": "'Event Participants Log'.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Event Participants Log'.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Event Participants Log",
+                "type": "'Event Participants Log'.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -817,7 +1749,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -847,7 +1779,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -877,7 +1809,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -907,7 +1839,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -937,7 +1869,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -967,7 +1899,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -997,7 +1929,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1027,7 +1959,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1057,7 +1989,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1087,7 +2019,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1117,7 +2049,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1147,7 +2079,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1177,7 +2109,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1207,7 +2139,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1237,7 +2169,337 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Email_DataCard2.DataCardValue8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Email_DataCard2.DataCardValue8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form'.Email_DataCard2.DataCardValue8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Address_DataCard2.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Address_DataCard2.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form'.Address_DataCard2.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Title_DataCard2.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Title_DataCard2.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form'.Title_DataCard2.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Salutation_DataCard1.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.Salutation_DataCard1.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form'.Salutation_DataCard1.DataCardValue9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.'Contact Number_DataCard2'.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form'.'Contact Number_DataCard2'.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form'.'Contact Number_DataCard2'.DataCardValue7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form Photo'.Photo_DataCard1.Camera1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'New Visitor Registration'.'New Visitor Registration Form Photo'.Photo_DataCard1.Camera1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "New Visitor Registration",
+                "type": "'New Visitor Registration'.'New Visitor Registration Form Photo'.Photo_DataCard1.Camera1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.TextInput2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.TextInput2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard1_1.TextInput1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard2_1.TextInput1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard7_1.ComboBox1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Regular Visitor Registration",
+                "type": "'Regular Visitor Registration'.'Regular Visitor Registration Form'.DataCard8.symptoms"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -1267,7 +2529,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -1297,7 +2559,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -1327,7 +2589,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -1335,6 +2597,65 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType-ExpectedTypesCSV",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type. Expecting one of the following: {0}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
@@ -1353,23 +2674,6 @@
               }
             },
             {
-              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing tab stop"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
               "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {
                 "issue": {
@@ -1384,6 +2688,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
             {

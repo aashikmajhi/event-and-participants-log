@@ -1,1 +1,27 @@
-{}
+{
+  "64df3d5d-759f-4970-980e-1a0966f888ce": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://astralnepal.sharepoint.com/sites/astralportal": {
+        "dataSources": {
+          "Participant Information": {
+            "tableName": "b994d83f-b6d2-44ee-bcf9-e3f179302016"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Participant Information"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "64df3d5d-759f-4970-980e-1a0966f888ce"
+  }
+}

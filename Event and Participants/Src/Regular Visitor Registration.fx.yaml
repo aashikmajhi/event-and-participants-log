@@ -43,7 +43,32 @@
                 BorderColor: =RGBA(85, 106, 129, 1)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
-                Default: =""
+                Default: |-
+                    =If(
+                       !IsBlank(visitorSearchByPhone.Text) && Len(visitorSearchByPhone.Text)>8,
+                       With(
+                          {
+                             wResult: 
+                             Concat(
+                                Distinct(
+                                   Filter(
+                                      VisitorInformation,
+                                      StartsWith(
+                                         'Phone Number',
+                                         visitorSearchByPhone.Text
+                                      )
+                                   ),
+                                   'Full Name'
+                                ),
+                                Result & ", "
+                             )
+                          },
+                          Left(
+                             wResult,
+                             Len(wResult)-2
+                          )
+                       )
+                    )
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
@@ -97,7 +122,32 @@
                 BorderColor: =RGBA(85, 106, 129, 1)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
-                Default: =""
+                Default: |-
+                    =If(
+                       !IsBlank(visitorSearchByPhone.Text) && Len(visitorSearchByPhone.Text)>8,
+                       With(
+                          {
+                             wResult: 
+                             Concat(
+                                Distinct(
+                                   Filter(
+                                      VisitorInformation,
+                                      StartsWith(
+                                         'Phone Number',
+                                         visitorSearchByPhone.Text
+                                      )
+                                   ),
+                                   'Full Name'
+                                ),
+                                Result & ", "
+                             )
+                          },
+                          Left(
+                             wResult,
+                             Len(wResult)-2
+                          )
+                       )
+                    )
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
@@ -324,7 +374,7 @@
         BorderColor: =RGBA(85, 106, 129, 1)
         BorderThickness: =2
         Color: =RGBA(255, 255, 255, 1)
-        Default: =""
+        Default: =If(!IsBlank(varMatch), varMatch, _lastEnteredPhoneNumber)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
