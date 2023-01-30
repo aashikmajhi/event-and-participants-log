@@ -636,7 +636,7 @@
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayFields: =["Value"]
+                DisplayFields: =["ComplianceAssetId"]
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(30, 45, 62, 1)
                 Font: =Font.'Segoe UI'
@@ -648,8 +648,8 @@
                 PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
                 PressedColor: =RGBA(30, 45, 62, 1)
                 PressedFill: =RGBA(0, 188, 242, 1)
-                SearchFields: =["Value"]
-                SearchItems: =Choices('Participant Information'.EventTitle,DataCardValue21.SearchText)
+                SearchFields: =["ComplianceAssetId"]
+                SearchItems: =Search(Filter(EventTitle,Title),DataCardValue21.SearchText,"ComplianceAssetId")
                 SelectionColor: =RGBA(30, 45, 62, 1)
                 SelectionFill: =RGBA(0, 188, 242, 1)
                 SelectMultiple: =false

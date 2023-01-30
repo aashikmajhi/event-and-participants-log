@@ -1,18 +1,19 @@
-Dashboard As screen:
+Admin As screen:
     Fill: =RGBA(30, 45, 62, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
-    companyName_7 As companyName:
+    companyName_10 As companyName:
         X: =210
         Y: =10
 
-    btnNewVisitor As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
+    btnNewVisitor_1 As button:
+        BorderColor: =RGBA(39, 113, 194, 1)
+        BorderThickness: =3
         Color: =RGBA(27, 41, 56, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(204, 242, 252, 1)
+        Fill: =RGBA(204, 241, 252, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
@@ -20,10 +21,7 @@ Dashboard As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
-        OnSelect: |-
-            =Set(_lastEnteredPhoneNumber,"");
-            ResetForm('New Visitor Registration Form') && ResetForm('New Visitor Registration Form Photo');
-            Navigate('New Visitor Registration')
+        OnSelect: =
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
@@ -32,19 +30,20 @@ Dashboard As screen:
         RadiusTopLeft: =15
         RadiusTopRight: =15
         Size: =30
-        Text: ="New Visitor"
-        Width: =340
-        X: =66
-        Y: =248
+        Text: ="Add Event"
+        Width: =940
+        X: =210
+        Y: =148
         ZIndex: =2
 
-    btnRegularVisitor As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
+    btnRegularVisitor_1 As button:
+        BorderColor: =RGBA(39, 113, 194, 1)
+        BorderThickness: =3
         Color: =RGBA(27, 41, 56, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(204, 242, 252, 1)
+        Fill: =RGBA(204, 241, 252, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
@@ -52,9 +51,7 @@ Dashboard As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
-        OnSelect: |-
-            =Set(_lastEnteredPhoneNumber,"");
-            Navigate('Regular Visitor Registration')
+        OnSelect: =Navigate('Event Participants Log')
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
@@ -63,20 +60,22 @@ Dashboard As screen:
         RadiusTopLeft: =15
         RadiusTopRight: =15
         Size: =30
-        Text: ="Regular Visitor"
-        Visible: =false
-        Width: =340
-        X: =66
-        Y: =598
+        Text: |-
+            ="View Event Participation Log
+            "
+        Width: =940
+        X: =210
+        Y: =518
         ZIndex: =3
 
-    btnAdmin As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
+    btnAdmin_1 As button:
+        BorderColor: =RGBA(39, 113, 194, 1)
+        BorderThickness: =3
         Color: =RGBA(27, 41, 56, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(204, 242, 252, 1)
+        Fill: =RGBA(204, 241, 252, 1)
         FocusedBorderColor: =ColorFade(Self.Fill, 75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
@@ -84,7 +83,7 @@ Dashboard As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
-        OnSelect: =Navigate(Admin)
+        OnSelect: =Navigate('Event Log')
         PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
@@ -93,28 +92,9 @@ Dashboard As screen:
         RadiusTopLeft: =15
         RadiusTopRight: =15
         Size: =30
-        Text: ="Admin"
-        Width: =340
-        X: =66
-        Y: =440
+        Text: ="View Event Log"
+        Width: =940
+        X: =210
+        Y: =332
         ZIndex: =4
-
-    Label11 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Dancing Script'
-        FontWeight: =FontWeight.Bold
-        Height: =470
-        Size: =65
-        Text: ="Warm Welcome from Astral Family"
-        Width: =812
-        X: =465
-        Y: =168
-        ZIndex: =5
 

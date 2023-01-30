@@ -115,8 +115,10 @@
   "ScreenOrder": [
     "Splash Screen",
     "Dashboard",
+    "Admin",
     "New Visitor Registration",
     "Regular Visitor Registration",
+    "Add Event",
     "Visitor View",
     "Event Participants Log",
     "Event Log",

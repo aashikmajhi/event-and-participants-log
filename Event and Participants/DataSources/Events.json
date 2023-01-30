@@ -29,10 +29,13 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
+      "EventDateandTime": "Event Date and Time",
       "EventDescription": "Event Description",
+      "ExpectedVisitors": "Expected Visitors",
       "ID": "ID",
       "Modified": "Modified",
-      "Title": "Title"
+      "Title": "Title",
+      "Venue": "Venue"
     },
     "DatasetName": "https://astralnepal.sharepoint.com/sites/astralportal",
     "EncodeDataset": true,
